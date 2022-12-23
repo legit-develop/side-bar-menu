@@ -55,6 +55,18 @@ body {
 .fa-xmark:hover {
   color: #000;
 }
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  margin-left: -15px;
+}
+
 @media (min-width: 676px) {
   .sidebar {
     width: 500px;
